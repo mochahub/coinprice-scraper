@@ -10,6 +10,7 @@ type RawMarketData struct {
 }
 
 type Symbol struct {
+	ProductID       string
 	RawBase         string
 	NormalizedBase  string
 	RawQuote        string
